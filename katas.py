@@ -12,7 +12,7 @@ def contar_frecuencia_letras(cadena):
         if caracter == " ":
             continue
             
-        # Poner todo en minusculas
+        # Que no distinga entre mayus y minus
         letra = caracter.lower() 
         
         # Si hay letra, suma 1. Si no, se crea, valor 1.
@@ -23,9 +23,40 @@ def contar_frecuencia_letras(cadena):
             
     return frecuencias
 
-# Pruebas
+# ==============================================================================
+# Dada una lista de números, obtén una nueva lista con el doble de 
+# cada valor. Usa la función map().
+# ==============================================================================
+
+def doblar(numero):
+    return numero * 2
+
+numeros = [1, 2, 3, 4, 5]
+
+# Utilizo map para doblar los num
+# Entiendo que hay que envolverlo en list para pedirselos 1 por 1
+numeros_dobles = list(map(doblar, numeros))
+
+
+# ==============================================================================
+#  PRINT - PRUEBAS
+# ==============================================================================
+
 if __name__ == "__main__":
+    
+    # --- Pruebas Ejercicio 1 ---
+    print("--- Ejercicio 1 ---")
     texto_prueba = "Hola Mundo"
-    resultado = contar_frecuencia_letras(texto_prueba)
+    resultado1 = contar_frecuencia_letras(texto_prueba)
     print(f"Texto: '{texto_prueba}'")
-    print(f"Resultado: {resultado}")
+    print(f"Resultado: {resultado1}")
+
+    # --- Línea de separación ---
+    print("\n" + "═"*40 + "\n")
+
+    # --- Pruebas Ejercicio 2 ---
+    print("--- Ejercicio 2 ---")
+    numeros = [1, 2, 3, 4, 5]
+    resultado2 = list(map(doblar, numeros))
+    print(f"Lista original: {numeros}")
+    print(f"Resultado al doble: {resultado2}")
