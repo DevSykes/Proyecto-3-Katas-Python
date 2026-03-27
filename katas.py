@@ -33,7 +33,7 @@ def doblar(numero):
 
 numeros = [1, 2, 3, 4, 5]
 
-# Utilizo map para doblar los num
+# Utilizo map para doblar los numeros
 # Entiendo que hay que envolverlo en list para pedirselos 1 por 1
 numeros_dobles = list(map(doblar, numeros))
 
