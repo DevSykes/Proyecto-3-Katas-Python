@@ -1,5 +1,5 @@
 # ==============================================================================
-# Escribe una función que reciba una cadena de texto como parámetro 
+# 1. Escribe una función que reciba una cadena de texto como parámetro 
 # y devuelva un diccionario con las frecuencias de cada letra en la cadena. 
 # Los espacios no deben ser considerados.
 # ==============================================================================
@@ -24,7 +24,7 @@ def contar_frecuencia_letras(cadena):
     return frecuencias
 
 # ==============================================================================
-# Dada una lista de números, obtén una nueva lista con el doble de 
+# 2. Dada una lista de números, obtén una nueva lista con el doble de 
 # cada valor. Usa la función map().
 # ==============================================================================
 
@@ -36,6 +36,12 @@ numeros = [1, 2, 3, 4, 5]
 # Utilizo map para doblar los num
 # Entiendo que hay que envolverlo en list para pedirselos 1 por 1
 numeros_dobles = list(map(doblar, numeros))
+
+# ==============================================================================
+# 3. Escribe una función que tome una lista de palabras y una palabra 
+# objetivo como parámetros. La función debe devolver una lista con todas las 
+# palabras de la lista original que contengan la palabra objetivo.
+# ==============================================================================
 
 
 # ==============================================================================
@@ -60,3 +66,9 @@ if __name__ == "__main__":
     resultado2 = list(map(doblar, numeros))
     print(f"Lista original: {numeros}")
     print(f"Resultado al doble: {resultado2}")
+
+    print("\n" + "═"*40 + "\n")
+
+    # --- Pruebas Ejercicio 3 ---
+
+
