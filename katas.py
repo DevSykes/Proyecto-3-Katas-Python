@@ -43,6 +43,14 @@ numeros_dobles = list(map(doblar, numeros))
 # palabras de la lista original que contengan la palabra objetivo.
 # ==============================================================================
 
+def filtrar_por_palabra(lista_palabras, objetivo):
+    resultado = []
+    
+    for palabra in lista_palabras:
+        if objetivo in palabra:
+            resultado.append(palabra)
+            
+    return resultado
 
 # ==============================================================================
 #  PRINT - PRUEBAS
