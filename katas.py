@@ -15,7 +15,6 @@ def contar_frecuencia_letras(cadena):
         # Que no distinga entre mayus y minus
         letra = caracter.lower() 
         
-        # Si hay letra, suma 1. Si no, se crea, valor 1.
         if letra in frecuencias:
             frecuencias[letra] += 1
         else:
@@ -34,7 +33,7 @@ def doblar(numero):
 numeros = [1, 2, 3, 4, 5]
 
 # Utilizo map para doblar los numeros
-# Entiendo que hay que envolverlo en list para pedirselos 1 por 1
+# Entiendo que hay que envolverlo en list para pedirselos 1 a 1
 numeros_dobles = list(map(doblar, numeros))
 
 # ==============================================================================
