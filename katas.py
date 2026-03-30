@@ -52,6 +52,11 @@ def filtrar_por_palabra(lista_palabras, objetivo):
     return resultado
 
 # ==============================================================================
+# 4. Genera una función que calcule la diferencia entre los valores de dos listas.
+# Usa la función map().
+# ==============================================================================
+
+# ==============================================================================
 #  PRINT - PRUEBAS
 # ==============================================================================
 
@@ -90,3 +95,5 @@ print(f"Buscando personajes con la letra: '{busqueda}'")
 print(f"Resultado: {resultado_final}")
 
   print("\n" + "═"*40 + "\n")
+
+      # --- Pruebas Ejercicio 4 ---
