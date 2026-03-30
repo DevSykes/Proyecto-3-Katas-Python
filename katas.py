@@ -78,4 +78,13 @@ if __name__ == "__main__":
 
     # --- Pruebas Ejercicio 3 ---
 
+print("--- Ejercicio 3 ---")
 
+personajes = ["Zack Fair", "Cloud Strife", "Sephiroth", "Aerith Gainsborough", "Angeal Hewley", "Genesis Rhapsodos"]
+busqueda = "a" # buscar nombres que contienen la letra 'a'
+
+resultado_cc = filtrar_por_palabra(personajes, busqueda)
+
+print(f"Lista de personajes: {personajes}")
+print(f"Buscando personajes con la letra: '{busqueda}'")
+print(f"Resultado: {resultado_cc}")
