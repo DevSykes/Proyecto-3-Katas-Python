@@ -87,4 +87,4 @@ resultado_final = filtrar_por_palabra(personajes, busqueda)
 
 print(f"Lista de personajes: {personajes}")
 print(f"Buscando personajes con la letra: '{busqueda}'")
-print(f"Resultado: {resultado_cc}")
+print(f"Resultado: {resultado_final}")
