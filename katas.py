@@ -94,13 +94,8 @@ print(f"Lista de personajes: {personajes}")
 print(f"Buscando personajes con la letra: '{busqueda}'")
 print(f"Resultado: {resultado_final}")
 
-<<<<<<< HEAD
 print("\n" + "═"*40 + "\n")
 
     # --- Pruebas Ejercicio 4 ---
     
-=======
-  print("\n" + "═"*40 + "\n")
-
-      # --- Pruebas Ejercicio 4 ---
->>>>>>> d08b86b7a3d89175629c791157db25548c37a36b
+print("\n" + "═"*40 + "\n")
