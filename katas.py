@@ -104,4 +104,14 @@ print(f"Resultado: {resultado_final}")
 print("\n" + "═"*40 + "\n")
 
     # --- Pruebas Ejercicio 4 ---
+
+print("\n--- Ejercicio 4 ---")
     
+lista_a = [10, 20, 30]
+lista_b = [1, 2, 3]
+    
+resultado4 = calcular_diferencia(lista_a, lista_b)
+    
+print(f"Lista A: {lista_a}")
+print(f"Lista B: {lista_b}")
+print(f"Resta:   {resultado4}")
