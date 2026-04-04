@@ -8,11 +8,11 @@ def contar_frecuencia_letras(cadena):
     frecuencias = {}
     
     for caracter in cadena:
-        # Ignorar espacios
+        # Para que ignore espacios
         if caracter == " ":
             continue
             
-        # Que no distinga entre mayus y minus
+        # para no distinga entre mayus y minus
         letra = caracter.lower() 
         
         if letra in frecuencias:
@@ -29,12 +29,6 @@ def contar_frecuencia_letras(cadena):
 
 def doblar(numero):
     return numero * 2
-
-numeros = [1, 2, 3, 4, 5]
-
-# Utilizo map para doblar los numeros
-# Entiendo que hay que envolverlo en list para pedirselos 1 a 1
-numeros_dobles = list(map(doblar, numeros))
 
 # ==============================================================================
 # 3. Escribe una función que tome una lista de palabras y una palabra 
@@ -76,7 +70,7 @@ if __name__ == "__main__":
     print(f"Texto: '{texto_prueba}'")
     print(f"Resultado: {resultado1}")
 
-    # --- Línea de separación ---
+    # Línea de separación
     print("\n" + "═"*40 + "\n")
 
     # --- Pruebas Ejercicio 2 ---
@@ -84,34 +78,34 @@ if __name__ == "__main__":
     numeros = [1, 2, 3, 4, 5]
     resultado2 = list(map(doblar, numeros))
     print(f"Lista original: {numeros}")
-    print(f"Resultado al doble: {resultado2}")
+    print(f"Resultado: {resultado2}")
 
     print("\n" + "═"*40 + "\n")
 
     # --- Pruebas Ejercicio 3 ---
 
-print("--- Ejercicio 3 ---")
+    print("--- Ejercicio 3 ---")
 
-personajes = ["Zack Fair", "Cloud Strife", "Sephiroth", "Aerith Gainsborough", "Angeal Hewley", "Genesis Rhapsodos"]
-busqueda = "a" # buscar nombres que contienen la letra 'a'
+    personajes = ["Zack Fair", "Cloud Strife", "Sephiroth", "Aerith Gainsborough", "Angeal Hewley", "Genesis Rhapsodos"]
+    busqueda = "a" # buscar nombres que contienen la letra 'a'
 
-resultado_final = filtrar_por_palabra(personajes, busqueda)
+    resultado_final = filtrar_por_palabra(personajes, busqueda)
 
-print(f"Lista de personajes: {personajes}")
-print(f"Buscando personajes con la letra: '{busqueda}'")
-print(f"Resultado: {resultado_final}")
+    print(f"Lista de personajes: {personajes}")
+    print(f"Buscando personajes con la letra: '{busqueda}'")
+    print(f"Resultado: {resultado_final}")
 
-print("\n" + "═"*40 + "\n")
+    print("\n" + "═"*40 + "\n")
 
     # --- Pruebas Ejercicio 4 ---
 
-print("\n--- Ejercicio 4 ---")
-    
-lista_a = [10, 20, 30]
-lista_b = [1, 2, 3]
-    
-resultado4 = calcular_diferencia(lista_a, lista_b)
-    
-print(f"Lista A: {lista_a}")
-print(f"Lista B: {lista_b}")
-print(f"Resta:   {resultado4}")
+    print("--- Ejercicio 4 ---")
+        
+    lista_a = [10, 20, 30]
+    lista_b = [1, 2, 3]
+        
+    resultado4 = calcular_diferencia(lista_a, lista_b)
+        
+    print(f"Lista A: {lista_a}")
+    print(f"Lista B: {lista_b}")
+    print(f"Resta:   {resultado4}")
