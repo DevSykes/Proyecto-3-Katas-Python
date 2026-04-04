@@ -56,6 +56,13 @@ def filtrar_por_palabra(lista_palabras, objetivo):
 # Usa la función map().
 # ==============================================================================
 
+def restar(a, b):
+    return a - b
+
+def calcular_diferencia(lista1, lista2):
+    resultado = list(map(restar, lista1, lista2))
+    return resultado
+
 # ==============================================================================
 #  PRINT - PRUEBAS
 # ==============================================================================
@@ -98,4 +105,3 @@ print("\n" + "═"*40 + "\n")
 
     # --- Pruebas Ejercicio 4 ---
     
-print("\n" + "═"*40 + "\n")
