@@ -58,6 +58,14 @@ def calcular_diferencia(lista1, lista2):
     return resultado
 
 # ==============================================================================
+#5. Escribe una función que tome una lista de números como parámetro y un valor opcional nota_aprobado 
+#(por defecto 5). La función debe calcular la media de los números en la lista y determinar si la media es
+#mayor o igual que nota_aprobado. Si es así, el estado será "aprobado"; de lo contrario, "suspenso".
+#La función debe devolver una tupla que contenga la media y el estado.
+# ==============================================================================
+
+
+# ==============================================================================
 #  PRINT - PRUEBAS
 # ==============================================================================
 
