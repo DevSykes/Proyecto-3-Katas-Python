@@ -74,6 +74,17 @@ def evaluar_media(numeros, nota_aprobado=5):
     return (media, estado)
 
 # ==============================================================================
+# 6. Escribe una función que calcule el factorial de un número de manera recursiva.
+# ==============================================================================
+
+def factorial(n):
+    if n == 0 or n == 1:
+        return 1
+    # recursivo
+    else:
+        return n * factorial(n - 1)
+
+# ==============================================================================
 #  PRINT - PRUEBAS
 # ==============================================================================
 
@@ -127,7 +138,10 @@ if __name__ == "__main__":
     print(f"Resta:   {resultado4}")
 
 
- # --- Pruebas Ejercicio 5 ---
+    # --- Pruebas Ejercicio 5 ---
 
     print("--- Ejercicio 5 ---")
-    print(evaluar_media([4, 6, 8])) 
+    print(evaluar_media([4, 6, 8]))
+
+     # --- Pruebas Ejercicio 6 ---
+    print(factorial(5))
