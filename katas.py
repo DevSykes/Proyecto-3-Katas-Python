@@ -64,6 +64,14 @@ def calcular_diferencia(lista1, lista2):
 #La función debe devolver una tupla que contenga la media y el estado.
 # ==============================================================================
 
+def evaluar_media(numeros, nota_aprobado=5):
+    if not numeros:
+        return (0, "suspenso")
+    
+    media = sum(numeros) / len(numeros)
+    estado = "aprobado" if media >= nota_aprobado else "suspenso"
+    
+    return (media, estado)
 
 # ==============================================================================
 #  PRINT - PRUEBAS
