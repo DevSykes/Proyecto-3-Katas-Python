@@ -83,6 +83,11 @@ def factorial(n):
     # recursivo
     else:
         return n * factorial(n - 1)
+    
+# ==============================================================================
+# 7. Genera una función que convierta una lista de tuplas a una lista de strings. Usa la función map().
+# ==============================================================================
+
 
 # ==============================================================================
 #  PRINT - PRUEBAS
@@ -143,5 +148,9 @@ if __name__ == "__main__":
     print("--- Ejercicio 5 ---")
     print(evaluar_media([4, 6, 8]))
 
-     # --- Pruebas Ejercicio 6 ---
+    # --- Pruebas Ejercicio 6 ---
+    print("--- Ejercicio 6 ---")
     print(factorial(5))
+
+    # --- Pruebas Ejercicio 7 ---
+    print("--- Ejercicio 7 ---")
