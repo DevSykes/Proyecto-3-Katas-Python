@@ -125,3 +125,9 @@ if __name__ == "__main__":
     print(f"Lista A: {lista_a}")
     print(f"Lista B: {lista_b}")
     print(f"Resta:   {resultado4}")
+
+
+ # --- Pruebas Ejercicio 5 ---
+
+    print("--- Ejercicio 5 ---")
+    print(evaluar_media([4, 6, 8])) 
