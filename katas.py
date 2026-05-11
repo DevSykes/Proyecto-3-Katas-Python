@@ -87,8 +87,17 @@ def factorial(n):
 # ==============================================================================
 # 7. Genera una función que convierta una lista de tuplas a una lista de strings. Usa la función map().
 # ==============================================================================
+
 def lista_strings(lista_tuplas):
     return list(map(str, lista_tuplas))
+
+# ==============================================================================
+# 8. Escribe un programa que pida al usuario dos números e intente dividirlos.
+# Si el usuario ingresa un valor no numérico o intenta dividir por cero, 
+# maneja esas excepciones de manera adecuada y muestra un mensaje indicando
+# si la división fue exitosa o no.
+# ==============================================================================
+
 
 
 # ==============================================================================
